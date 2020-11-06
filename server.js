@@ -6,7 +6,7 @@ const app = express();
 const path = require('path');
 
 // Listen to a specific port OR :3000:
-const configPort = (process.env.PORT || 3000);
+const configPort = (process.env.PORT || 24767);
 
 // Listen:
 app.listen(configPort, console.log(`Server started on ${configPort}`));
